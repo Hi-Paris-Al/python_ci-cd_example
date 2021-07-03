@@ -13,6 +13,3 @@ def search(needle, haystack):
     raise ValueError("Value not in haystack")
 
 
-def test_search():
-    assert search(2, [1, 2, 3, 4]) == 1, \
-        'found needle somewhere in the haystack'
