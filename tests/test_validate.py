@@ -1,4 +1,4 @@
-from arc.validate import validate_email
+from awesomecode.validate import validate_email
 
 import pytest
 
